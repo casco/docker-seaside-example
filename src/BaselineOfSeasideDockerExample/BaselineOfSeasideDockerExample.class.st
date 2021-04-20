@@ -12,7 +12,7 @@ BaselineOfSeasideDockerExample >> baseline: spec [
 		do: [ spec repository: 'bitbucket://casco/scolr'.
 			self seaside: spec.
 			spec
-				package: 'SeasideDockerExample';
+				package: 'SeasideDockerExample'
 				with: [ spec requires: #('Seaside3') ] ]
 ]
 
