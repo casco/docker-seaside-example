@@ -1,0 +1,4 @@
+Create the container with:
+
+docker run -p 8888:8080 -v /Users/alejandrofernandez/Desktop/seaside-docker-example/data:/opt/pharo/data -t seaside-docker-example
+
